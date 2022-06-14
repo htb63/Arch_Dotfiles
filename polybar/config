@@ -20,14 +20,14 @@
 ;Potential Themes will be commented out. Uncomment the one you want to use.
 
 ;Hyper Colors
-black = '#000000'
-red = '#fe0100'
-green = '#33ff00'
-yellow = '#feff00'
-blue = '#0066ff'
-magenta = '#cc00ff'
-cyan = '#00ffff'
-white = '#d0d0d0'
+black = #000000
+red = #fe0100
+green = #33ff00
+yellow = #feff00
+blue = #0066ff
+magenta = #cc00ff
+cyan = #00ffff
+white = #d0d0d0
 
 ; Original Colors
 ; background = #282A2E
@@ -39,13 +39,13 @@ white = '#d0d0d0'
 ; disabled = #707880
 
 [colors]
-background = ${theme.red}
-background-alt = ${theme.blue}
-foreground = ${theme.green}
-primary = ${theme.black}
-secondary = ${theme.cyan}
+background = ${theme.black}
+background-alt = ${theme.black}
+foreground = ${theme.red}
+primary = ${theme.red}
+secondary = ${theme.red}
 alert = ${theme.white}
-disabled = ${theme.yellow}
+disabled = ${theme.red}
 
 [bar/example]
 width = 100%
