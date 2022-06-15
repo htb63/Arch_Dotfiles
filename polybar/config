@@ -52,7 +52,6 @@ bottom = true
 monitor = HDMI-1
 width = 100%
 height = 24pt
-#radius = 6
 
 ; dpi = 96
 
@@ -62,7 +61,6 @@ foreground = ${colors.foreground}
 line-size = 2pt
 
 border-size = 1pt
-#border-color = #00000000
 border-color = ${colors.foreground}
 
 padding-left = 1
@@ -75,9 +73,7 @@ separator-foreground = ${theme.red}
 
 font-0 = Fira Code;2
 
-#modules-left = xworkspaces xwindow
 modules-left = xworkspaces 
-#modules-right = filesystem pulseaudio memory cpu eth date
 modules-right = filesystem pulseaudio memory cpu date
 
 cursor-click = pointer
@@ -120,7 +116,7 @@ label = %title:0:60:...%
 type = internal/fs
 interval = 25
 
-#mount-0 = /
+mount-0 = /
 
 label-mounted = %{F#F0C674}%mountpoint%%{F-} %percentage_used%%
 
