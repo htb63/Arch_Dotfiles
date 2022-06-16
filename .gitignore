@@ -6,3 +6,11 @@ htop/
 user-dirs*
 QtProject*
 gh/
+BraveSoftware/
+cef_user_data/
+discord/
+google-chrome/
+mimeapps.list
+obs-studio/
+pulse/
+vifm/
