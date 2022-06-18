@@ -36,9 +36,14 @@ exec --no-startup-id nm-applet
 
 #Script which sets up monitor and wallpaper.
 exec --no-startup-id sh ~/.config/desktop/launch.sh
-client.focused #fe0100 #fe0100 #fe0100 #fe0100 #fe0100
-client.focused_inactive #ff6865 #ff6865 #ff6865 #ff6865 #ff6865
-client.unfocused #ffcccb #ffcccb #ffcccb #ffcccb #ffcccb
+
+#Colors for windows.
+#class border background text indicator child_border
+client.focused #fe0100 #fe0100 #000000 #fe0100 #fe0100
+# client.focused_inactive #ff6865 #ff6865 #ff6865 #ff6865 #ff6865
+client.focused_inactive #000000 #000000 #fe0100 #000000 #000000 
+# client.unfocused #ffcccb #ffcccb #ffcccb #ffcccb #ffcccb
+client.unfocused #000000 #000000 #fe0100 #000000 #000000 
 
 #Border style for new windows.
 #Red border with no window heading.
