@@ -42,7 +42,8 @@ client.unfocused #ffcccb #ffcccb #ffcccb #ffcccb #ffcccb
 
 #Border style for new windows.
 #Red border with no window heading.
-default_border pixel 0
+default_border pixel 1
+hide_edge_borders smart
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
